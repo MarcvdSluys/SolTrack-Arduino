@@ -53,11 +53,11 @@ under all conditions. The code can compute about 96 Sun positions per second on 
 
 
 
-## Examples ##
+## Example ##
 
 This repository lists an `example.ino` program that can be linked against the SolTrack library (_i.e._
 compiled and uploaded together with `SolTrack.ino` and `SolTrack.h`), and which computes data for a single
-instance.  Example output is provided to verify the results.
+instance.[^dir]  Example output is provided to verify the results.
 
 
 
@@ -74,4 +74,7 @@ instance.  Example output is provided to verify the results.
 You can contact the authors (preferably through email) via [this page](http://han.vandersluys.nl/en/).
 
     
+## Footnotes ##
 
+[^dir]: Note that some systems require you to use a directory of the same name as the script (see e.g. [this
+    page](https://arduino.stackexchange.com/q/32619/43342)).  If you use such a system, you should call the directory `example/` for the example code.
